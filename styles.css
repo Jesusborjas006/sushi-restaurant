@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Hero Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 30px 40px;
+  background: rgba(0, 0, 0, .7);
+  color: #fff;
+}
+
+.logo span {
+  color:rgb(255, 216, 22)
+}
+
+.hero-section {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('./images/pexels-morna-tang-3873980.jpg') no-repeat center center/cover;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.hero-content {
+  color: #fff;
+  text-align: center;
+  margin-top: 220px;
+  line-height: 1.6;
+}
+
+.main-heading {
+  font-size: 5rem;
+}
+
+.sub-heading {
+  font-size: 1.3rem;
+}
+
+.hero-button {
+  background-color: rgb(255, 216, 22);
+  border: none;
+  padding: 20px 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all ease .4s;
+}
+
+.hero-button:hover {
+  margin-top: 25px;  
+}
