@@ -5,6 +5,24 @@
   font-family: sans-serif;
 }
 
+body {
+  background: #000;
+  font-size: 18px;
+}
+
+/* Fade in transition */
+.reveal {
+  position: relative;
+  transform: translateY(125px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 /* Hero Section */
 .navbar {
   display: flex;
@@ -41,7 +59,7 @@
   font-size: 1.3rem;
 }
 
-.hero-button {
+.button-type-1 {
   background-color: rgb(255, 216, 22);
   border: none;
   padding: 20px 30px;
@@ -50,8 +68,41 @@
   font-size: 1.2rem;
   cursor: pointer;
   transition: all ease .4s;
+  width: 220px;
 }
 
-.hero-button:hover {
+.button-type-1:hover {
   margin-top: 25px;  
+}
+
+/* Why Us Section */
+.why-us-section {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85vw;
+  margin: 100px auto 0;
+  line-height: 1.7;
+}
+
+.heading-type-1 {
+  color:rgb(255, 216, 22);
+  font-size: 22px;
+}
+
+.heading-type-2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.img-container img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.why-us-section p {
+  margin-top: 20px;
+  width: 800px;
 }
