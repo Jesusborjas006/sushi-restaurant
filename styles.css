@@ -194,6 +194,7 @@ body {
 
 .client-card:hover {
   transform: translateY(-10px);
+  box-shadow: 10px 5px 5px rgb(0, 0, 0.9);
 }
 
 .client-container .icon {
@@ -211,3 +212,130 @@ body {
 .card-text {
   color: rgb(190, 190, 190);
 }
+
+/* Picture Section */
+.picture-section {
+  margin-top: 100px;
+  
+}
+
+.picture-section h2,
+.picture-section h3 {
+  text-align: center;
+  margin: 20px 0
+}
+
+.picture-content {
+  margin-top: 60px;
+  width: 100vw;
+  margin-left: 140px;
+}
+
+.angry-grid {
+  display: grid; 
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  
+  gap: 10px;
+  height: 100%;
+}
+ 
+#item-0 {
+  background-color: #959AEA; 
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 3;
+}
+
+#item-1 {
+  background-color: #B6D5CB; 
+  grid-row-start: 1;
+  grid-column-start: 3;
+
+  grid-row-end: 2;
+  grid-column-end: 4;
+}
+
+#item-2 {
+  background-color: #5DC78C; 
+  grid-row-start: 1;
+  grid-column-start: 4;
+
+  grid-row-end: 2;
+  grid-column-end: 5; 
+}
+
+#item-3 {
+  background-color: #D85679; 
+  grid-row-start: 2;
+  grid-column-start: 3;
+
+  grid-row-end: 4;
+  grid-column-end: 5; 
+}
+
+#item-4 {
+  background-color: #DBD58D; 
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 4;
+  grid-column-end: 2;
+}
+
+#item-5 {
+  background-color: #D5ADAE; 
+  grid-row-start: 3;
+  grid-column-start: 2;
+
+  grid-row-end: 4;
+  grid-column-end: 3;
+}
+
+/* Form Section */
+
+.form-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.form-section p{
+  margin-top: 20px;
+  font-size: 1.5rem;
+} 
+
+.deals-p {
+  letter-spacing: 2px;
+}
+
+.form-input {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: #000;
+  border: 1px solid #fff;
+  width: 450px;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+.form-btn {
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+  padding: 20px;
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.form-btn:hover {
+  background-color: rgb(225, 225, 225);
+  color: #000;
+}
+
