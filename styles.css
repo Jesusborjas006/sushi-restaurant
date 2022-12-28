@@ -385,3 +385,106 @@ body {
 .footer-section p {
   padding: 10px;
 }
+
+
+
+/* MEDIA QUERIES */
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+/* Mobile Devices */
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* Hero Section */
+  .navbar {
+    font-size: 1.5rem;
+  }
+
+  .main-heading {
+    font-size: 3rem;
+  }
+
+  /* Why Us Section */
+  .why-us-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .why-us-section p {
+    width: 420px;
+  }
+
+  .img-container img {
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+
+  /* Explore Section */
+  .explore-section {
+    width: 75vw;
+    margin: 0 auto;
+  }
+
+  .explore-container {
+    flex-direction: column;
+  }
+
+  .menu-card {
+    margin: 20px 0;
+  }
+
+  .client-content {
+    width: 75vw;
+  }
+
+  .client-container {
+    flex-direction: column;
+  }
+
+  /* Picture Section */
+  .picture-content {
+    margin-left: 85px;
+  }
+
+  /* Form Section */
+  .deals-p {
+    letter-spacing: 1.5px;
+  }
+
+  .form-input {
+    width: 350px;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .form-btn {
+    width: 350px;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  /* Footer Section*/
+  .social-links {
+    width: 400px;
+  }
+
+}
+
+
+
+
+
+
+/* @media only screen and (max-width: 500) {
+  * {
+    background-color: #de3163;
+  }
+} */
