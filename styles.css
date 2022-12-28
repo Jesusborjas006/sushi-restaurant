@@ -476,7 +476,7 @@ body {
 }
 
 /* iPads, Tablets */
-@media (min-width: 501px) and (max-width: 768px) {
+@media (min-width: 501px) and (max-width: 1024px) {
   .main-heading {
     font-size: 3rem;
   }
@@ -547,6 +547,14 @@ body {
   }
 }
 
+@media (min-width: 1025px) and (max-width: 1300px) {
+  body {
+    background-color: #de3163;
+  }
 
-
-769px — 1024px: Small screens, laptops
+  .img-container img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+  }
+}
